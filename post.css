@@ -3,9 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three cards in a row */
     
-    justify-content: center; /* Center the cards horizontally */
-    align-items: center; /* Center the cards vertically */
-    text-align: center; /* Center the content within each card */
+padding-left: 50px;
     
   }
   
