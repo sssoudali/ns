@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     text-align: center;
+    background-color: rgb(247, 246, 246);
 }
 
 h1 {
@@ -81,7 +82,6 @@ a {
 }
 
 .topcont {
-
     /* Set the background image */
     background-image: url('bcim.jpg');
 
@@ -93,22 +93,24 @@ a {
     background-position: center center;
     /* Center the image horizontally and vertically */
 
-
     width: 100%;
     /* You can specify the width and height as needed */
     height: 600px;
 
-
-    color: #fff;
-    padding: 20px;
-
+    /* Add a fade effect */
+    position: relative;
 }
+
+
+ 
 
 
 nav.navbar {
 
     background-color: #ffffff2a !important;
-}
+    margin-right: 1em;
+    margin-left:1em ;
+position: top 2em ;}
 
 .navbar-nav .nav-link {
     color: white;
@@ -119,3 +121,80 @@ nav.navbar {
   }
 
 
+  .rounded-navbar {
+    border-radius: 10px; /* Adjust the radius as needed */
+  }
+
+ /* Default styles for both .Description and .tani */
+.Description {
+    font-family: cursive;
+    color: #ffffff;
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    width: 35em;
+    font-size: larger;
+    opacity: 0; /* Start with text hidden */
+    transform: translateY(20px); /* Start with text slightly shifted down */
+    transition: opacity 1s, transform 1s;
+}
+
+.tani {
+    color: hsla(0, 0%, 100%, 0.812);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 7px;
+    cursor: pointer;
+    width: 25em;
+    margin: auto;
+    background: transparent;
+}
+
+.tani span {
+    transition: 0.5s ease-out;
+}
+
+.tani:hover span:nth-child(1) {
+    margin-right: 5px;
+}
+
+.tani:hover span:nth-child(1):after {
+    content: "'";
+}
+
+.tani:hover span:nth-child(2) {
+    margin-left: 30px;
+}
+
+.tani:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .Description {
+        font-size: medium; /* Adjust font size for smaller screens */
+        width: 80%; /* Adjust width for smaller screens */
+    }
+
+    .tani {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
+
+
+.service
+{
+    font-family: 'Mooli', sans-serif;   
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin-top: 1em;
+    color: #0d2d43;
+
+}
