@@ -1,0 +1,87 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    
+    padding-left: 7em;
+    padding-right: 7em;
+
+}
+@media (max-width: 768px) {
+    .cards {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.imgs
+{
+    justify-content: center;
+    text-align: center;
+
+    width: 8em;
+    height: 7em;
+    place-self: center;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 360px;
+    height: 340px;
+    perspective: 1000px;
+    font-family: sans-serif;
+    margin: auto;
+    border: #1f1c29;
+    margin-top: 2em;
+    
+    
+}
+
+.title {
+    font-size: 1.2em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(#12486B);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid #1f1c29;
+    ;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.flip-card-front {
+    background: #419197;
+    background: linear-gradient(45deg, #ff6600, #3399ff);
+    color: white;
+    background: linear-gradient(#419197, #176B87);
+}
+.flip-card-back {
+    background: #12486B;
+    color: white;
+    transform: rotateY(180deg);
+    background: linear-gradient(45deg, #214158, #3d5a77e2); /* Add your gradient here */
+}

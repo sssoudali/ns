@@ -26,14 +26,15 @@
 
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 
 
-  <link rel="stylesheet" href="container1.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css3/conatiner1.css">
+  <link rel="stylesheet" href="css3/card.css">
+  <link rel="stylesheet" href="css3/linediv.css">
+  <link rel="stylesheet" href="css3/post.css">
 
-  <link rel="stylesheet" href="infinite_line.css">
-  <link rel="stylesheet" href="card.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +46,6 @@
     rel="stylesheet">
 
 
-  <link rel="stylesheet" href="post.css">
 
 </head>
 
@@ -88,7 +88,116 @@
     </a>
   </div>
 
+  <section>
+    <div class="linediv">
+      <img class="img1" src="images/Annotation 2023-09-25 001528.jpg" alt="">
+      <img class="img1" src="images/gimg.jpg" alt="">
+      <img class="img1" src="images/ming.jpg" alt="">
+      <img class="img1" src="images/ui.jpg" alt="">
+      <img class="img1" src="images/cimg.jpg" alt="">
+    </div>
+  </section>
 
+
+
+  <div class="buttons">
+    <p class="service">Our Services</p>
+    <p>
+      <!-- Replace the simple buttons with the button-86 class -->
+      <a class="button-86" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true"
+        aria-controls="collapseExample1">
+        Popular services
+      </a>
+      <a class="button-86" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false"
+        aria-controls="collapseExample2">
+        Nural Tech
+      </a>
+      <a class="button-86" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false"
+        aria-controls="collapseExample3">
+        Development
+      </a>
+      <a class="button-86" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false"
+        aria-controls="collapseExample4">
+        Design
+      </a>
+    </p>
+    <div class="collapse show" id="collapseExample1">
+      <div class="card card-body,cardb">
+
+
+
+        <table>
+          <tr>
+            <td style="font-family: monospace;">
+              Leverage conversational interfaces to enhance client engagement and automate processes. Our knowledge and
+              experience will help you reach your AI objectives.
+
+            </td>
+            <td>
+              <img src="images/cimg.jpg" alt="">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="collapse" id="collapseExample2">
+      <div class="card card-body,cardb">
+        <table>
+          <tr>
+            <td style="font-family: monospace;">
+              Whatever your needs are in terms of AI, we have the knowledge and experience to provide tailored solutions
+              that satisfy your particular demands.
+            </td>
+            <td>
+              <img src="images/cimg.jpg" alt="">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="collapse" id="collapseExample3">
+      <div class="card card-body,cardb">
+        <table>
+          <tr>
+            <td style="font-family: monospace;">
+              In order to guarantee that your digital products appear fantastic and offer a seamless user experience.
+              Whatever your requirements are for software creation, we have the knowledge and experience to meet them.
+
+            </td>
+            <td>
+              <img src="images/cimg.jpg" alt="">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="collapse" id="collapseExample4">
+      <div class="card card-body,cardb">
+        <table>
+          <tr>
+            <td style="font-family: monospace;">
+              To assist you in streamlining your operations and achieving your business objectives. Whatever your
+              company's prerequisites are, we have the knowledge and experience to provide tailored solutions that
+              satisfy them.
+            </td>
+            <td>
+              <img src="images/cimg.jpg" alt="">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // Add an event listener to hide other collapses when one is shown
+      $('.collapse').on('show.bs.collapse', function () {
+        $('.collapse.show').not(this).collapse('hide');
+      });
+    </script>
+  </div>
 
 
   <p class="service">Common Services</p>
@@ -96,12 +205,18 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <p class="title">Minimum Viable Product</p>
+          <img class="imgs" src="images/Annotation_2023-09-27_213124-removebg-preview.png" alt="">
+          <p class="title" style="margin-top: 2em;  font-family: 'Mooli', sans-serif;;">Minimum Viable Product</p>
           <p></p>
         </div>
         <div class="flip-card-back">
-          <p class="title">BACK</p>
-          <p>Leave Me</p>
+          <p class="title"></p>
+          <p style="text-align: left; margin-left: 1em; font-family: Lato;">A Minimum Viable Product (MVP) for a
+            software website is a streamlined version that focuses on essential features to meet the core needs of
+            users. It includes user registration, a simple user interface, key content, basic navigation, responsive
+            design, and scalability, while minimizing backend complexity and cost. The MVP is designed for rapid
+            deployment, allowing for user feedback collection and iterative improvements to build a more comprehensive
+            software website over time.</p>
         </div>
       </div>
     </div>
@@ -109,12 +224,18 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <p class="title">Reserach And Development</p>
+          <img class="imgs" src="images/Annotation_2023-09-27_213202-removebg-preview.png" alt="">
+
+          <p class="title" style="margin-top: 2em;  font-family: 'Mooli', sans-serif;">Reserach And Development</p>
           <p></p>
         </div>
         <div class="flip-card-back">
-          <p class="title">BACK</p>
-          <p>Leave Me</p>
+          <p class="title"></p>
+          <p style="text-align: left; margin-left: 1em; font-family: Lato;">Research and Development (R&D) is the
+            process organizations use to innovate, solve problems, and create new products or technologies. It's vital
+            for staying competitive, driving economic growth, and addressing societal challenges, often funded through
+            various sources like government grants and private investment.
+          </p>
         </div>
       </div>
     </div>
@@ -122,12 +243,18 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <p class="title">Ai integration</p>
+
+          <img class="imgs" src="images/Annotation_2023-09-27_213232-removebg-preview.png" alt="">
+
+          <p class="title" style="margin-top: 2em;  font-family: 'Mooli', sans-serif;">Ai integration</p>
           <p></p>
         </div>
         <div class="flip-card-back">
-          <p class="title">BACK</p>
-          <p>Leave Me</p>
+          <p class="title"></p>
+          <p style="text-align: left; margin-left: 1em; font-family: Lato;">Our AI integration empowers your business by
+            automating tasks, enhancing customer experiences, and providing data-driven insights, all seamlessly
+            integrated into your existing systems. Embracing AI isn't just a trend; it's a strategy for future success,
+            and we're here to help you unlock its potential. </p>
         </div>
       </div>
     </div>
@@ -135,175 +262,161 @@
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <p class="title">Expert Guidance</p>
+          <img class="imgs" src="images/Annotation_2023-09-27_213246-removebg-preview.png" alt="">
+
+          <p class="title" style="margin-top: 2em;  font-family: 'Mooli', sans-serif;">Expert Guidance</p>
           <p></p>
         </div>
         <div class="flip-card-back">
-          <p class="title">BACK</p>
-          <p>Leave Me</p>
+          <p class="title"></p>
+          <p style="text-align: left; margin-left: 1em; font-family: Lato;">Leveraging Research and Development (R&D)
+            services at [Your Software Company], we guide you towards technological innovation and competitive edge. Our
+            R&D experts help you explore new possibilities, streamline operations, and develop cutting-edge software
+            solutions tailored to your unique needs. By investing in R&D, you're not only future-proofing your business
+            but also unlocking growth opportunities and staying ahead of the curve. We're here to partner with you on
+            this journey, harnessing creativity and advanced resources to transform your vision into reality and secure
+            your position as a technological leader in your industry.</p>
         </div>
       </div>
     </div>
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <p class="title">Reserach And Development</p>
+          <img class="imgs" src="images/Annotation_2023-09-27_213304-removebg-preview.png" alt="">
+
+          <p class="title" style="margin-top: 2em;  font-family: 'Mooli', sans-serif;">Proof of concept</p>
           <p></p>
         </div>
         <div class="flip-card-back">
-          <p class="title">BACK</p>
-          <p>Leave Me</p>
+          <p class="title"></p>
+          <p style="text-align: left; margin-left: 1em; font-family: Lato;">
+            Our Proof of Concept (PoC) is a strategic step that showcases how innovative ideas and technologies can
+            address your business challenges before committing to a full-scale project. It's a risk-mitigating approach
+            that provides tangible insights and allows you to make informed decisions about implementing the solution.
+          </p>
         </div>
       </div>
     </div>
     <div class="flip-card">
       <div class="flip-card-inner">
         <div class="flip-card-front">
-          <p class="title">Reserach And Development</p>
+          <img class="imgs" src="images/Annotation_2023-09-27_213321-removebg-preview.png" alt="">
+
+          <p class="title" style="margin-top: 2em;  font-family: 'Mooli', sans-serif;">Custom Ai soltion</p>
           <p></p>
         </div>
         <div class="flip-card-back">
-          <p class="title">BACK</p>
-          <p>Leave Me</p>
+          <p class="title"></p>
+          <p style="text-align: left; margin-left: 1em; font-family: Lato;">Our Custom AI Solutions are tailored to your
+            specific needs, providing data-driven insights and task automation to enhance your operations and achieve
+            results that matter to your business.</p>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="cardcont1">
-
-    <div class="card1">
-
-      <img class=simg
-        src="https://media.licdn.com/dms/image/D5612AQF7MxuDCBgxEQ/article-inline_image-shrink_1000_1488/0/1679904097306?e=1700697600&v=beta&t=qfy9sbX8cbN-Q4_ueH2PCqwwBcw4JFflhsVhXufZvx8"
-        alt="Paris">
-
-      <p class="card-title1" style=text-align:center>Sports</p>
-      <p class="small-desc">
-
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow">→</div>
-      </div>
-    </div>
-
-
-    <div class="card1">
-
-      <img class=simg
-        src="https://media.licdn.com/dms/image/D5612AQF7MxuDCBgxEQ/article-inline_image-shrink_1000_1488/0/1679904097306?e=1700697600&v=beta&t=qfy9sbX8cbN-Q4_ueH2PCqwwBcw4JFflhsVhXufZvx8"
-        alt="Paris">
-
-      <p class="card-title1" style=text-align:center>Sports</p>
-      <p class="small-desc">
-
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow">→</div>
-      </div>
-    </div>
-
-
-    <div class="card1">
-
-      <img class=simg
-        src="https://media.licdn.com/dms/image/D5612AQF7MxuDCBgxEQ/article-inline_image-shrink_1000_1488/0/1679904097306?e=1700697600&v=beta&t=qfy9sbX8cbN-Q4_ueH2PCqwwBcw4JFflhsVhXufZvx8"
-        alt="Paris">
-
-      <p class="card-title1" style=text-align:center>Sports</p>
-      <p class="small-desc">
-
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow">→</div>
-      </div>
-    </div>
-
-
-    <div class="card1">
-
-      <img class=simg
-        src="https://media.licdn.com/dms/image/D5612AQF7MxuDCBgxEQ/article-inline_image-shrink_1000_1488/0/1679904097306?e=1700697600&v=beta&t=qfy9sbX8cbN-Q4_ueH2PCqwwBcw4JFflhsVhXufZvx8"
-        alt="Paris">
-
-      <p class="card-title1" style=text-align:center>Sports</p>
-      <p class="small-desc">
-
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow">→</div>
-      </div>
-    </div>
-
-    <div class="card1">
-
-      <img class=simg
-        src="https://media.licdn.com/dms/image/D5612AQF7MxuDCBgxEQ/article-inline_image-shrink_1000_1488/0/1679904097306?e=1700697600&v=beta&t=qfy9sbX8cbN-Q4_ueH2PCqwwBcw4JFflhsVhXufZvx8"
-        alt="Paris">
-
-      <p class="card-title1" style=text-align:center>Sports</p>
-      <p class="small-desc">
-
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow">→</div>
-      </div>
-    </div>
-
-    <div class="card1">
-
-      <img class=simg
-        src="https://media.licdn.com/dms/image/D5612AQF7MxuDCBgxEQ/article-inline_image-shrink_1000_1488/0/1679904097306?e=1700697600&v=beta&t=qfy9sbX8cbN-Q4_ueH2PCqwwBcw4JFflhsVhXufZvx8"
-        alt="Paris">
-
-      <p class="card-title1" style=text-align:center>Sports</p>
-      <p class="small-desc">
-
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow">→</div>
       </div>
     </div>
   </div>
 
 
 
+  <p class="service">Our industry</p>
+  <div class="cardcont1" style="padding-left: 0px; padding-right: 0px;">
 
-  <div class="button-container" style="justify-content: center;" style="display: inline-flex;">
-    <!-- Button 1 -->
-    <div class="button-content-container">
-      <button class="button-86" role="button" onclick="toggleCollapse(1)">Toggle Collapse 1</button>
-      <div class="content" id="content1">
-        <p>This is collapsible content 1.</p>
+
+    <div class="card1">
+
+      <img class=simg
+        src="https://media.licdn.com/dms/image/D5612AQF7MxuDCBgxEQ/article-inline_image-shrink_1000_1488/0/1679904097306?e=1700697600&v=beta&t=qfy9sbX8cbN-Q4_ueH2PCqwwBcw4JFflhsVhXufZvx8"
+        alt="Paris">
+
+      <p class="card-title1" style=text-align:center>Sports</p>
+      <p class="small-desc">
+
+      </p>
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
       </div>
     </div>
 
-    <!-- Button 2 -->
-    <div class="button-content-container">
-      <button class="button-86" role="button" onclick="toggleCollapse(2)">Toggle Collapse 2</button>
-      <div class="content" id="content2">
-        <p>This is collapsible content 2.</p>
+
+    <div class="card1">
+
+      <img class=simg
+        src="https://th.bing.com/th/id/R.a0b9a5aef017a843dce0fd90df821a19?rik=YW%2fMBTecuydLpQ&pid=ImgRaw&r=0"
+        alt="Paris">
+
+      <p class="card-title1" style=text-align:center>Healthcare</p>
+      <p class="small-desc">
+
+      </p>
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
       </div>
     </div>
 
-    <!-- Button 3 -->
-    <div class="button-content-container">
-      <button class="button-86" role="button" onclick="toggleCollapse(3)">Toggle Collapse 3</button>
-      <div class="content" id="content3">
-        <p>This is collapsible content 3.</p>
+
+    <div class="card1">
+
+      <img class=simg
+        src="https://th.bing.com/th/id/R.7ca7920413b0def2f222eb1ebaca7153?rik=Bj8sr9UvL6ABqQ&pid=ImgRaw&r=0"
+        alt="Paris">
+
+      <p class="card-title1" style=text-align:center>Sports</p>
+      <p class="small-desc">
+
+      </p>
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
       </div>
     </div>
 
-    <!-- Button 4 -->
-    <div class="button-content-container">
-      <button class="button-86" role="button" onclick="toggleCollapse(4)">Toggle Collapse 4</button>
-      <div class="content" id="content4">
-        <p>This is collapsible content 4.</p>
+
+    <div class="card1">
+
+      <img class=simg
+        src="https://www.einfochips.com/blog/wp-content/uploads/2019/03/ai-in-security-and-surveillance-featured.jpg"
+        alt="Paris">
+
+      <p class="card-title1" style=text-align:center>Retail</p>
+      <p class="small-desc">
+
+      </p>
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
+      </div>
+    </div>
+
+    <div class="card1">
+
+      <img class=simg
+        src="https://th.bing.com/th/id/OIP.C6SmMgxnh8qDT-MVUNN8eQHaD4?pid=ImgDet&rs=1"
+        alt="Paris">
+
+      <p class="card-title1" style=text-align:center>Automotive</p>
+      <p class="small-desc">
+
+      </p>
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
+      </div>
+    </div>
+
+    <div class="card1">
+
+      <img class=simg
+        src="https://th.bing.com/th/id/R.5eebf41884e4bfbbfe3a828f52943678?rik=4mxyIyAveXgHsw&pid=ImgRaw&r=0"
+        alt="Paris">
+
+      <p class="card-title1" style=text-align:center>Factory Automation</p>
+      <p class="small-desc">
+
+      </p>
+      <div class="go-corner">
+        <div class="go-arrow">→</div>
       </div>
     </div>
   </div>
 
-  <script src="contaner.js"></script>
+
+
 
 
 
