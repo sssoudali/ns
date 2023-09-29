@@ -3,7 +3,8 @@
     text-align: left;
     white-space: nowrap; /* Prevent wrapping to the next line */
     overflow-x: auto;    /* Add horizontal scrollbar if necessary */
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: azure;
+    box-shadow: rgba(38, 77, 107, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 .img1 {
     margin-right: 1em;
